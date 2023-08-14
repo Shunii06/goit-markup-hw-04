@@ -162,7 +162,7 @@ a {
 /*                HERO                */
 .hero-background {
     background: var(--navyblue, #2E2F42) 
-    url(/images/hero-background-image.jpg)
+url(/images/hero-background-image.jpg)
     no-repeat;
     center;
     max-width: 1440px;
