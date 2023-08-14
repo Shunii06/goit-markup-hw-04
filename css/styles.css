@@ -128,12 +128,8 @@ a {
 .onsite-navi:hover,
 .onsite-navi:focus {
     color: var(--ocean, #404BBF);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
 }
+
 .adress-margin {
     margin-left: auto;
 }
@@ -165,9 +161,17 @@ a {
 /*------------------main INDEX------------------*/
 /*                HERO                */
 .hero-background {
-    background: var(--navyblue, #2E2F42);
-    height: 600px;
+    background: var(--navyblue, #2E2F42) 
+    url(/images/hero-background-image.jpg)
+    no-repeat;
+    center;
+    max-width: 1440px;
     display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+
+
 }
 .hero-text {
     color: var(--white, #FFF);
@@ -186,11 +190,9 @@ a {
     display: flex;
     justify-content: center;
     padding-top: 42px;
+    padding-bottom: 188px;
 }
 .hero-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: var(--white, #FFF);
     font-family: 'Roboto';
     font-size: 16px;
@@ -202,7 +204,7 @@ a {
     padding-left: 32px;
     padding-bottom: 16px;
     padding-right: 32px;
-    border-radius: 4px;
+    border: none;
     background: var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -320,8 +322,24 @@ a {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
+.traling-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
 
+.customers-class {
 
+}
+
+.customers-logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+
+}
 
 
 
@@ -360,7 +378,8 @@ border-radius: 4px;
     cursor: pointer;
     color: var(--white, #FFF);
     display: flex;
-        background: var(--ocean, #404BBF);
+    background: var(--ocean, #404BBF);
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .portfolio-cards {
     display: flex;
@@ -369,7 +388,10 @@ border-radius: 4px;
     column-gap: 24px;
     margin-bottom: 120px;
 }
-
+.portfolio-cards-hover:hover {
+    background: var(--white, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 .project-card {
     width: 360px;
     border-right: 1px solid var(--cornflower, #E7E9FC);
@@ -405,14 +427,12 @@ color: var(--slate, #434455);
 }
 
 
-
-/*-------------------------FOOTER------------------*/
+/*-------------------------FOOTER---------------------------*/
 
 .background-dark-bottom {
     background: var(--navyblue, #2E2F42);
-    height: 312px;
 }
-.footer-box {
+.footer-box-text {
     padding-top: 100px;
 }
 .main-link-bottom {
@@ -449,4 +469,15 @@ color: var(--slate, #434455);
         line-height: 1.5;
         letter-spacing: 0.32px;
     padding-top: 17.5px;
+}
+
+.footer-socials {
+    color: var(--white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
 }
