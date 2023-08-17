@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="Homework One" content="goit-markup-hw-01" />
     <title>Studio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
+    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -61,6 +58,9 @@
       <div class="container">
         <ul class="features-in-row">
           <li class="main-site-feature">
+            <svg width="264" height="112">
+              <use href="./images/icons.svg#icon-Anthena"></use>
+            </svg>
             <h3 class="main-site-feature-topic">Strategy</h3>
             <p class="main-site-feature-descr">
               Our goal is to identify the business problem to walk away with the
@@ -68,6 +68,9 @@
             </p>
           </li>
           <li class="main-site-feature">
+            <svg width="264" height="112">
+              <use href="./images/icons.svg#icon-Clock"></use>
+            </svg>
             <h3 class="main-site-feature-topic">Punctuality</h3>
             <p class="main-site-feature-descr">
               Bring the key message to the brand's audience for the best price
@@ -75,6 +78,9 @@
             </p>
           </li>
           <li class="main-site-feature">
+            <svg width="264" height="112">
+              <use href="./images/icons.svg#icon-Computer"></use>
+            </svg>
             <h3 class="main-site-feature-topic">Dilligence</h3>
             <p class="main-site-feature-descr">
               Research and confirm brands that present the strongest digital
@@ -82,6 +88,9 @@
             </p>
           </li>
           <li class="main-site-feature">
+            <svg width="264" height="112">
+              <use href="./images/icons.svg#icon-Astronaut"></use>
+            </svg>
             <h3 class="main-site-feature-topic">Technologies</h3>
             <p class="main-site-feature-descr">
               Design practice focused on digital experiences. We bring forth a
@@ -93,7 +102,7 @@
       <div class="container">
         <h2 class="h2-main-page">What Are We Doing</h2>
         <ul class="imgs-box">
-          <li class="imgs">
+          <li>
             <img
               src="images/comp.jpg"
               alt="computer with charts on it"
@@ -101,7 +110,7 @@
               height="300"
             />
           </li>
-          <li class="imgs">
+          <li>
             <img
               src="images/phone.jpg"
               alt="smartphone viewing many aps on it"
@@ -109,7 +118,7 @@
               height="300"
             />
           </li>
-          <li class="imgs">
+          <li>
             <img
               src="images/hand.jpg"
               alt="hand holding phone connected remotely to laptop in the background"
@@ -120,81 +129,185 @@
         </ul>
       </div>
       <section class="container background-cloud">
-        <div class="container">
-          <h2 class="h2-main-page">Our Team</h2>
-          <ul class="team">
-            <li class="team-card">
-              <img
-                src="images/manwithbeard.jpg"
-                alt="smiling man with a beard in blue shirt"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="team-img-titles">Mark Guerrero</h3>
-                <p class="team-img-description">Product Designer</p>
-              </div>
-              <div class="traling-icons"></div>
-            </li>
-            <li class="team-card">
-              <img
-                src="images/manlookingleft.jpg"
-                alt="smiling man in blue shirt looking to his left"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="team-img-titles">Tom Ford</h3>
-                <p class="team-img-description">Frontend Developer</p>
-              </div>
-              <div class="traling-icons"></div>
-            </li>
-            <li class="team-card">
-              <img
-                src="images/woman.jpg"
-                alt="smiling woman in pink sweater"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="team-img-titles">Camila Garcia</h3>
-                <p class="team-img-description">Marketing</p>
-              </div>
-              <div class="traling-icons"></div>
-            </li>
-            <li class="team-card">
-              <img
-                src="images/man.jpg"
-                alt="smiling men in grey blouse"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="team-img-titles">Daniel Wilson</h3>
-                <p class="team-img-description">UI Designer</p>
-              </div>
-              <div class="traling-icons"></div>
-            </li>
-          </ul>
-        </div>
+        <h2 class="h2-main-page">Our Team</h2>
+        <ul class="team">
+          <li class="team-card">
+            <img
+              src="images/manwithbeard.jpg"
+              alt="smiling man with a beard in blue shirt"
+              width="264"
+              height="260"
+            />
+            <div class="card-content">
+              <h3 class="team-img-titles">Mark Guerrero</h3>
+              <p class="team-img-description">Product Designer</p>
+              <ul class="container svg-cards-row">
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Instagram"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Twitter"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Facebook"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Linked"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="team-card">
+            <img
+              src="images/manlookingleft.jpg"
+              alt="smiling man in blue shirt looking to his left"
+              width="264"
+              height="260"
+            />
+            <div class="card-content">
+              <h3 class="team-img-titles">Tom Ford</h3>
+              <p class="team-img-description">Frontend Developer</p>
+              <ul class="container svg-cards-row">
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Instagram"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Twitter"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Facebook"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Linked"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="team-card">
+            <img
+              src="images/woman.jpg"
+              alt="smiling woman in pink sweater"
+              width="264"
+              height="260"
+            />
+            <div class="card-content">
+              <h3 class="team-img-titles">Camila Garcia</h3>
+              <p class="team-img-description">Marketing</p>
+              <ul class="container svg-cards-row">
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Instagram"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Twitter"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Facebook"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Linked"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="team-card">
+            <img
+              src="images/man.jpg"
+              alt="smiling men in grey blouse"
+              width="264"
+              height="260"
+            />
+            <div class="card-content">
+              <h3 class="team-img-titles">Daniel Wilson</h3>
+              <p class="team-img-description">UI Designer</p>
+              <ul class="container svg-cards-row">
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Instagram"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Twitter"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Facebook"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="bg-cards-svg" width="40" height="40">
+                    <use href="./images/icons.svg#icon-Linked"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </section>
-      <section class="customers-class">
-        <div class="container">
-          <h2 class="h2-main-page">Customers</h2>
-          <ul class="customers-logo">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </section>
+      <div class="container customers-class">
+        <h2 class="h2-main-page">Customers</h2>
+        <ul class="customers-logo">
+          <li>
+            <svg class="svg-border" width="168" height="88">
+              <use href="./images/icons.svg#icon-Client-1"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="svg-border" width="168" height="88">
+              <use href="./images/icons.svg#icon-Client-2"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="svg-border" width="168" height="88">
+              <use href="./images/icons.svg#icon-Client-3"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="svg-border" width="168" height="88">
+              <use href="./images/icons.svg#icon-Client-4"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="svg-border" width="168" height="88">
+              <use href="./images/icons.svg#icon-Client-5"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="svg-border" width="168" height="88">
+              <use href="./images/icons.svg#icon-Client-6"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
     </main>
     <footer class="container background-dark-bottom">
       <div class="footer-box-text">
-        <a href="./index.html" class="container main-link-bottom"
+        <a href="./index.html" class="main-link-bottom"
           ><span class="main-link-bottom web-txt">WEB</span>STUDIO</a
         >
         <p class="container site-descrip">
@@ -205,10 +318,26 @@
       <div class="container footer-box-social">
         <p class="container footer-socials">Social Media</p>
         <ul class="container svg-bottom-row">
-          <li class="svg--images-class">1</li>
-          <li class="svg--images-class">2</li>
-          <li class="svg--images-class">3</li>
-          <li class="svg--images-class">4</li>
+          <li>
+            <svg class="bg-footer-svg" width="40" height="40">
+              <use href="./images/icons.svg#icon-InstagramF"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="bg-footer-svg" width="40" height="40">
+              <use href="./images/icons.svg#icon-TwitterF"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="bg-footer-svg" width="40" height="40">
+              <use href="./images/icons.svg#icon-FacebookF"></use>
+            </svg>
+          </li>
+          <li>
+            <svg class="bg-footer-svg" width="40" height="40">
+              <use href="./images/icons.svg#icon-LinkedF"></use>
+            </svg>
+          </li>
         </ul>
       </div>
     </footer>
