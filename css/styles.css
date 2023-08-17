@@ -370,7 +370,7 @@ border-radius: 4px;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 .portfolio-cards-style:hover,
 .portfolio-cards-style:focus{
