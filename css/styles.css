@@ -159,7 +159,7 @@ a {
 /*                HERO                */
 .hero-background {
     background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)),
-    url(https://github.com/Shunii06/goit-markup-hw-04/blob/main/images/hero-background-image.jpg?raw=true);     
+    url(/images/hero-background-image.jpg);     
     display: flex;
     flex-direction: column;
     background-position: center;
@@ -379,6 +379,10 @@ display: flex;
     column-gap: 24px;
     padding-bottom: 120px;
 }
+.portfolio-cards-style {
+    cursor: pointer;
+}
+
 .portfolio-cards-style:hover,
 .portfolio-cards-style:focus{
     background: var(--white, #FFF);
